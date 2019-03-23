@@ -1,0 +1,29 @@
+{
+  "name": "iot-manager-service",
+  "version": "1.0.0",
+  "description": "Backendservice for the IoTManger, used the scan and manage iot devices in your network",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dragonil/Iot-Manager.git"
+  },
+  "keywords": [
+    "server",
+    "iotmanager",
+    "sssf"
+  ],
+  "author": "Oliver Gorges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dragonil/Iot-Manager/issues"
+  },
+  "homepage": "https://github.com/Dragonil/Iot-Manager#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19"
+  }
+}
