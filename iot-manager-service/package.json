@@ -25,5 +25,9 @@
   "dependencies": {
     "express": "^4.16.4",
     "mongoose": "^5.4.19"
+  },
+  "apis":{
+    "baseurl": "https://api.macvendors.com/"
+
   }
 }
