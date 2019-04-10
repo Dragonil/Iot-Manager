@@ -2,31 +2,31 @@
 
 module.exports = function(app, db) {
 
-    app.get('/', (req, res)=>{
+    app.get('/', db.read, (req, res)=>{
 
     })
 
-    app.get('/:ip', (req, res)=>{
+    app.get('/:ip', db.read, (req, res)=>{
 
     })
 
-    app.get('/:id', (req, res)=>{
+    app.get('/:id', db.read, (req, res)=>{
 
     })
 
-    app.get('/:id/services', (req, res)=>{
+    app.get('/:id/services', db.read, (req, res)=>{
 
     })
 
-    app.post('/', (req, res)=>{
+    app.post('/', db.create, (req, res)=>{
         
     })
 
-    app.delete('/:id', (req, res)=>{
+    app.delete('/:id', db.delete, (req, res)=>{
         
     })
 
-    app.patch('/:id', (req, res)=>{
+    app.patch('/:id', db.update, (req, res)=>{
         
     })
 }
